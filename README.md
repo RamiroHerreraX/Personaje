@@ -8,11 +8,12 @@ Pastor con fuego  🔥
 |--|--|--|--|
 |ESP32|Microcontrolador con comunicación serial, wifi, bluetooth|1|$140.00|
 |Cables Dupont|Cables MM HH HM para conexión de prototipos|50|$60.00| 
-|Servomotor|||||
-|Luces LED|||||
-|Altavoces o zumbadores|||||
-|Sensor de Movimiento(PIR)|||||
-|Sensor de luz|||||
+|Servomotor|Motor que permite el control de posición angular|2|$100|
+|Luces LED|Diodos emisores de luz para iluminación|1 (paquete)|$56|
+|Altavoces o zumbadores|Dispositivos para reproducción de sonido o generación de zumbidos|2|$60|
+|Sensor de Movimiento(PIR)|Sensor que detecta movimientos en su entorno|1|$60|
+|Sensor de luz|Sensor que detecta niveles de luz ambiental|1|$100|
+|Protoboard|Placa de pruebas para conectar y proteger los pines del microcontrolador|1|$100|
 
 ## Software Utilizado
 |Nombre de Software|Versión|Tipo|
