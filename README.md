@@ -9,6 +9,10 @@ Pastor con fuego  🔥
 |ESP32|Microcontrolador con comunicación serial, wifi, bluetooth|1|$140.00|
 |Cables Dupont|Cables MM HH HM para conexión de prototipos|50|$60.00| 
 |Servomotor|||||
+|Luces LED|||||
+|Altavoces o zumbadores|||||
+|Sensor de Movimiento(PIR)|||||
+|Sensor de luz|||||
 
 ## Software Utilizado
 |Nombre de Software|Versión|Tipo|
@@ -37,8 +41,8 @@ Interfaz de Usuario: La aplicación móvil proporcionaría una interfaz de usuar
 
 ## Arquitectura
 Colocar una imagen donde coloques los sensores, los actuadores, el microcontrolador, base de datos (sqlite o mysql)
-![Imagen de los componentes, la arquitectura]()
+![Imagen de los componentes, la arquitectura](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Arquitectura.jpg?raw=true)
 
 ## Base de Datos
 Colocar una imagen del modelo relacional de la base de datos (2 tablas) tabla de sensores y actuadores
-![Imagen del modelo relacional de la base de datos]()
+![Imagen del modelo relacional de la base de datos](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Modelo%20Relacional%20BD.jpg?raw=true)
