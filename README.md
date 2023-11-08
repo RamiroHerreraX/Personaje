@@ -14,6 +14,7 @@ Pastor con fuego  🔥
 |Sensor de Movimiento(PIR)|Sensor que detecta movimientos en su entorno|1|$60|
 |Sensor de luz|Sensor que detecta niveles de luz ambiental|1|$100|
 |Protoboard|Placa de pruebas para conectar y proteger los pines del microcontrolador|1|$100|
+|HC-SR04|sensor de distancias por ultrasonidos capaz de detectar objetos y calcular la distancia a la que se encuentra en un rango de 2 a 450 cm|1|$100|
 
 ## Software Utilizado
 |Nombre de Software|Versión|Tipo|
@@ -30,7 +31,10 @@ Coloca el dibujo a mano de la propuesta de prototipo a desarrollar
 
 ## Circuito en wokwi de los componentes electronicos conectados
 (imagen donde se muestren o varias imagenes para hacer luz, sonido y movimiento)
-![Imagen del Prototipo](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Pastor%20con%20Fuego.jpg?raw=true)
+![Conexión del Prototipo](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/ConeccionWokwi.jpg)
+![Codigo parte 1](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/CodigoWokwi1.jpg)
+![Codigo parte 2](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/CodigoWokwi2.jpg)
+![Codigo parte 3](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/CodigoWokwi3.jpg)
 
 ## Comunicación
 Describir el protocolo de comunicación que tendra el dispositivo. Describir o hablar sobre como va a interactuar un dispositivo móvil.
