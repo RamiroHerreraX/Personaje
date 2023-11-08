@@ -28,6 +28,10 @@ Pastor con fuego  🔥
 Coloca el dibujo a mano de la propuesta de prototipo a desarrollar
 ![Imagen del Prototipo](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Pastor%20con%20Fuego.jpg?raw=true)
 
+## Circuito en wokwi de los componentes electronicos conectados
+(imagen donde se muestren o varias imagenes para hacer luz, sonido y movimiento)
+![Imagen del Prototipo](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Pastor%20con%20Fuego.jpg?raw=true)
+
 ## Comunicación
 Describir el protocolo de comunicación que tendra el dispositivo. Describir o hablar sobre como va a interactuar un dispositivo móvil.
 Como se conecta o como mandar una orden al dispositivo. (Cómo interactua el usuario con el prototipo)
