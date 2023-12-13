@@ -11,7 +11,7 @@ Pastor con Fogata  🔥
 ## Materiales utilizados
 |Nombre de Componente|Descripción del componente|Cantidad|Precio|
 |--|--|--|--|
-|ESP32|Microcontrolador con comunicación serial, wifi, bluetooth|1|$140.00|
+|ESP32|Microcontrolador con comunicación serial, wifi, bluetooth|2|$280.00|
 |Cables Dupont|Cables MM HH HM para conexión de prototipos|50|$60.00| 
 |Servomotor|Motor que permite el control de posición angular|1|$60|
 |Luces LED|Diodos emisores de luz para iluminación| 2 azules, 8 rojos, 2 amarillos|$20|
@@ -21,7 +21,7 @@ Pastor con Fogata  🔥
 |HCSR04|sensor de distancias por ultrasonidos capaz de detectar objetos y calcular la distancia a la que se encuentra en un rango de 2 a 450 cm|1|$100|
 |Motor a pasos|Motor que convierte pulsos eléctricos en movimientos angulares discretos|1|$100|
 |Materiales para el diseño|Telas/Madera/Alambron/Silicón/Pegamento|varios|$45|
-|||**TOTAL**|$600|
+|||**TOTAL**|$740|
 
 
 
@@ -74,21 +74,28 @@ A conticuación se anexa un video el cuál explica la funcionalidad del proyecto
 
 
 ## Código implementado
-Dentro del presente repositorio se encuentran las carpetas respectidas donde se puede visualizar los archivos de código.
+Dentro del presente repositorio se encuentran las carpetas respectivas donde se puede visualizar los archivos de código.
 
 ## Imagenes del proceso de elaboración
 A continuación se anexan pruebas del proceso de elaboración mediante diversas imagenes o fotos que se capturaron durante la elaboración.
 
-![Img]()
-![Img]()
-![Img]()
-![Img]()
-![Img]()
+![Img](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Componentes.jpg)  
+![Img](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Elaboracion%201.jpg)  
+![Img](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Equipos%20trabajando.jpg)  
+![Img](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Referencia%20tamanio.jpg)  
+![Img](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Retoques.jpg)  
+![Img](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Ultimos%20ajustes.jpg)  
+![Img](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/conexion%20componentes.jpg)  
+![Img](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/prueba%20de%20cableado.jpg)  
+![Img](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/trabajo%20elaboracion.jpg)  
+![Img](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Finalizado.jpg)
+
 
 ## Imagenes de elaboración del código
 A continuación se anexan pruebas del proceso de elaboración del código medante capturas del entorno.
-![Img]()
+![Img](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Evidencia%20codigo.png)  
+![Img](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Evidencia%20codigo%202.png)
 
 ## Flujo de Node-red
 Se anexa el flujo de Node-red, además se agrega el archivo dentro del presente repositorio.
-![Img]()
+![Img](https://github.com/RamiroHerreraX/Personaje/blob/main/imagenes/Flujo%20NodeRed.jpg)
