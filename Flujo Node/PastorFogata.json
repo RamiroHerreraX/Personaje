@@ -1,0 +1,228 @@
+[
+    {
+        "id": "417ebd74c5b2c82a",
+        "type": "tab",
+        "label": "PastorFogata",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1cf77e6c700e333a",
+        "type": "ui_switch",
+        "z": "417ebd74c5b2c82a",
+        "name": "",
+        "label": "Led Pastor",
+        "tooltip": "",
+        "group": "9472ee17138aded8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "bañoE",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "bañoA",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 390,
+        "y": 240,
+        "wires": [
+            [
+                "bdd41a5a59e77672",
+                "7f68c6e6a48f7817"
+            ]
+        ]
+    },
+    {
+        "id": "e7886b71bb151aac",
+        "type": "inject",
+        "z": "417ebd74c5b2c82a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "1cf77e6c700e333a"
+            ]
+        ]
+    },
+    {
+        "id": "bdd41a5a59e77672",
+        "type": "mqtt out",
+        "z": "417ebd74c5b2c82a",
+        "name": "",
+        "topic": "pastor/fogata",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e8ee7e9d7f9aa488",
+        "x": 610,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "2b3edf1b34cfcb09",
+        "type": "remote-access",
+        "z": "417ebd74c5b2c82a",
+        "confignode": "ae636da0dfdc79fc",
+        "name": "",
+        "verbose": 0,
+        "x": 400,
+        "y": 420,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b5d36b0745ca09bb",
+        "type": "debug",
+        "z": "417ebd74c5b2c82a",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "7f68c6e6a48f7817",
+        "type": "function",
+        "z": "417ebd74c5b2c82a",
+        "name": "LedEstado",
+        "func": "if (msg.payload === 'bañoE') {\n    msg.payload = \"Encendido\" + global.get(\"name\");\n} else if (msg.payload === 'bañoA') {\n    msg.payload = \"Apagado\" + global.get(\"name\");\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 360,
+        "wires": [
+            [
+                "b5d36b0745ca09bb",
+                "b1cbb49b215e0da6"
+            ]
+        ]
+    },
+    {
+        "id": "b1cbb49b215e0da6",
+        "type": "ui_text",
+        "z": "417ebd74c5b2c82a",
+        "group": "9472ee17138aded8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Estado del led:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 620,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "9472ee17138aded8",
+        "type": "ui_group",
+        "name": "EncApgLED",
+        "tab": "d8d7d36bb0fe94f8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e8ee7e9d7f9aa488",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.1.100",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ae636da0dfdc79fc",
+        "type": "remote-config",
+        "name": "Node-RED UI",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "qc75trf03ss9botz8nrqw61903n0ras0421vxc0d7jq7aswo4j5pubdjg0zvxlid",
+        "server": "nodered02.remote-red.com",
+        "region": "de"
+    },
+    {
+        "id": "d8d7d36bb0fe94f8",
+        "type": "ui_tab",
+        "name": "ProyectoPastor",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    }
+]
